@@ -1,0 +1,30 @@
+.a,.b,.c{
+    display:inline-block;
+    font-size:30px;
+    height:40px;
+    width:100px;
+  }
+  .a{
+    background-color: red;
+  }
+  .b{
+     background-color: pink;
+     position:relative;
+     left:1000px;
+     
+    }
+  .c{
+     background-color: yellow;
+    
+  }
+  .relative1{
+    background-color: bisque;
+    position: relative;
+   
+  }
+
+  .obsolute{
+    background-color: blueviolet;
+    position: obsolute;
+    
+  }
