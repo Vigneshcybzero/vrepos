@@ -1,0 +1,93 @@
+
+body{
+    position: static;
+    
+}
+.header{
+    float: right;
+}
+.header a, .header button{
+    margin: 5px;
+    text-decoration-line: none;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header button{
+    background-color: rgb(84, 84, 245);
+    padding:7px;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.searchbox input{
+    width:580px;
+    height:40px;
+    border-radius: 10px;
+}
+
+.btn a, button{
+    margin-top:24px;
+    padding:8px;
+}
+.main{
+    padding: 150px;
+    margin-left: 190px;
+}
+.logo-img img{
+    padding-left: 120px;
+}
+.langs a{
+    margin:5px;
+    font-size: 13px;
+    text-decoration-line: none;
+}
+.langs{
+    padding: 15px;
+}
+.btn{
+    padding-left: 160px;
+    padding-top: 5px;
+}
+.footer-left a{
+    text-decoration-line: none;
+    margin-left: 10px;
+    float:left;
+}
+.footer-right a{
+    text-decoration-line: none;
+    right:20px;
+    margin-left:16px;
+    float: right;
+}
+.footer-right, .footer-left{
+    display: inline;
+
+}
+.footer{
+    background-color: rgb(224, 216, 216);
+}
+
+.footer-links a{
+    color: darkgray;
+}
+.country, .footer-links{
+    display: block;  
+}
+.country{
+    margin-left: 10px;
+    color: darkgrey;
+    background-color: rgb(224, 216, 216);
+    position: relative;
+    
+}
+
+.footer-links{
+    background-color: rgb(224, 216, 216);
+    position: relative;
+    height: 20px;
+}
+
+
+    
