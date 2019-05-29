@@ -1,20 +1,29 @@
 
-body{
-    position: static;
+body{position:relative;
+    margin: 0;
+    padding: 0;
     
 }
 .header{
+
     float: right;
+    
+
+}
+.header a:hover{
+    text-decoration-line: underline;
 }
 .header a, .header button{
-    margin: 5px;
+    margin: 7px;
+
     text-decoration-line: none;
     color: black;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 .header button{
-    background-color: rgb(84, 84, 245);
+    background-color: rgb(103, 103, 248);
     padding:7px;
     font-size: 13px;
     color: white;
@@ -32,7 +41,7 @@ body{
     padding:8px;
 }
 .main{
-    padding: 150px;
+    padding: 126px;
     margin-left: 190px;
 }
 .logo-img img{
@@ -46,48 +55,52 @@ body{
 .langs{
     padding: 15px;
 }
+.langs :hover{
+    text-decoration-line: underline;
+
+}
 .btn{
     padding-left: 160px;
     padding-top: 5px;
 }
-.footer-left a{
-    text-decoration-line: none;
-    margin-left: 10px;
-    float:left;
+
+
+#ll, #lr{
+    display: inline-block;
 }
-.footer-right a{
-    text-decoration-line: none;
-    right:20px;
-    margin-left:16px;
+#lr{
     float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
-.footer-right, .footer-left{
-    display: inline;
+#ll{
+    margin-left:20px;
+    margin-bottom: 20px;
+    border-top-width: 5px;
+}
+.footerline {
+    background-color: rgb(211, 207, 207);
+    text-decoration-line: none;
+}
+.footerline a{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration-line: none;
+    margin:7px;
+}
+.footerline a:hover{
+    text-decoration-line: underline;
 
 }
-.footer{
-    background-color: rgb(224, 216, 216);
+.f1{
+    padding: 18px;
+    color:gray;
+    height: 13px;
+    border-top:1.5px solid  rgb(201, 199, 199);
+    border-bottom:1.5px solid  rgb(201, 199, 199);
 }
-
-.footer-links a{
-    color: darkgray;
-}
-.country, .footer-links{
-    display: block;  
-}
-.country{
-    margin-left: 10px;
-    color: darkgrey;
-    background-color: rgb(224, 216, 216);
-    position: relative;
-    
-}
-
-.footer-links{
-    background-color: rgb(224, 216, 216);
-    position: relative;
-    height: 20px;
-}
-
-
-    
+.line a{ position: relative;
+    background-color: rgb(211, 207, 207);
+    top:10px;
+} 
