@@ -1,7 +1,6 @@
 
-body{position:relative;
-    margin: 0;
-    padding: 0;
+body{
+    margin: auto;
     
 }
 .header{
@@ -36,71 +35,85 @@ body{position:relative;
     border-radius: 10px;
 }
 
-.btn a, button{
-    margin-top:24px;
-    padding:8px;
+
+.btn{
+    position:fixed; 
+   display:inline-block;
+    width:400px;
+    padding:20px;
+    margin-left: 160px;
 }
+
+.btn a{
+    height:40px;
+}
+
 .main{
     padding: 126px;
     margin-left: 190px;
 }
 .logo-img img{
-    padding-left: 120px;
+    padding-left: 130px;
 }
 .langs a{
     margin:5px;
     font-size: 13px;
     text-decoration-line: none;
+    margin-right: 3px;
 }
 .langs{
-    padding: 15px;
+    position: fixed;
+    display: inline-block;
+    padding: 50px;
+    width:1000px;
 }
 .langs :hover{
     text-decoration-line: underline;
 
 }
-.btn{
-    padding-left: 160px;
-    padding-top: 5px;
-}
 
+footer a{
 
-#ll, #lr{
-    display: inline-block;
-}
-#lr{
-    float: right;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-#ll{
-    margin-left:20px;
-    margin-bottom: 20px;
-    border-top-width: 5px;
-}
-.footerline {
-    background-color: rgb(211, 207, 207);
-    text-decoration-line: none;
-}
-.footerline a{
     color:grey;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
     text-decoration-line: none;
     margin:7px;
 }
-.footerline a:hover{
+footer a:hover{
     text-decoration-line: underline;
 
 }
-.f1{
-    padding: 18px;
-    color:gray;
-    height: 13px;
-    border-top:1.5px solid  rgb(201, 199, 199);
-    border-bottom:1.5px solid  rgb(201, 199, 199);
+
+.rl {
+    float: right;
+    margin-right: 15px;
+    font-size: 15px;
+
 }
-.line a{ position: relative;
-    background-color: rgb(211, 207, 207);
-    top:10px;
-} 
+	
+.ll{
+    float: left;
+    margin-left: 15px;
+    font-size: 15px;
+}
+footer{
+    background-color:  rgb(214, 210, 210);
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    padding-bottom: 10px;
+    border-top:0.2px solid  rgb(236, 231, 231) ;
+    
+
+}
+.india{
+   position: absolute;
+   width: 100%;
+    bottom:28px;
+    background-color: rgba(243, 243, 243, 0.849);
+    height: 28px;
+    padding-bottom: 25px;
+    border-top:0.2px solid rgb(236, 231, 231);
+
+  
+}

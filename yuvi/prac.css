@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(42, 113, 172);
+}
+.start{
+    float: top;
+    overflow: hidden;
+    border-radius: 3px;
+    width:100%;
+    font-size: 20px;
+    }
+.start img{ 
+    float: left;
+
+}
+.start section{
+    margin: 10%;
+    padding:20px;
+
+}
+.y{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    border-radius: 4%;
+   
+    overflow: hidden;
+    width:100%;
+    
+}
+.u{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40%;
+    padding: 10px;
+    border-radius: 4%;
+    
+    overflow: hidden;
+}
+.main {
+    width:100%;
+    
+}
+.y,.u{
+    display: inline-block;
+}
+.y{
+    width: 50%;
+    padding: 20px;
+}
+
+
+section{
+    width:40%;
+    padding:20px;
+}
+
+h1{
+    color: rgb(238, 114, 69);
+}
+
+.u img{
+    float: left;
+}
+.u section{
+    width:99%;
+}
+.y section{
+    width: 100%;
+}
+.y img{
+float: right;
+}

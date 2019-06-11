@@ -1,17 +1,18 @@
 .a,.b,.c{
-    display:inline-block;
-    font-size:30px;
-    height:40px;
-    width:100px;
+  display:block;
   }
-  .a{
-    background-color: red;
+  .a {
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
   }
-  .b{
-     background-color: pink;
-     position:relative;
-     left:1000px;
-     
+  .b {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    background-color: darkgray;
     }
   .c{
      background-color: yellow;
@@ -25,6 +26,6 @@
 
   .obsolute{
     background-color: blueviolet;
-    position: obsolute;
+    position: fixed;
     
   }
